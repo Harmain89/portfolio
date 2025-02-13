@@ -19,7 +19,7 @@ function Hero() {
                 <div className="flex flex-col items-center lg:items-start">
                     <motion.h1 variants={container(0)} initial="hidden" animate="visible" transition={{ duration: 0.5, delay: 2 }} className="pb-16 text—6xl font—thin tracking—tight lg:mt-16 text-8xl">Harmain Rizwan</motion.h1>
                     <motion.span variants={container(0.5)} initial="hidden" animate="visible" transition={{ duration: 0.5, delay: 2 }} className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">
-                        Full Stack Developer
+                        Full Stack Developer testing
                     </motion.span>
                     <motion.p variants={container(1)} initial="hidden" animate="visible" transition={{ duration: 0.5, delay: 2 }} className="my—2 max—w—xl py-6 font—light tracking-tighter">
                         {HERO_CONTENT}
