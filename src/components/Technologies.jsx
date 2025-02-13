@@ -1,4 +1,3 @@
-import { RiReactjsLine } from "react-icons/ri";
 import { motion } from "motion/react";
 
 const iconVariants = (duration) => ({
