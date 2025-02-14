@@ -1,4 +1,4 @@
-import { kevinRushProfilePng } from "../assets/index.js";
+import { harmainrizwanJpg, kevinRushProfilePng } from "../assets/index.js";
 import {HERO_CONTENT} from "../constants/index.js"
 import { motion } from "motion/react";
 
@@ -33,7 +33,7 @@ function Hero() {
                         initial={{ x: 100, opacity: 0 }}
                         animate={{ x: 0, opacity: 1 }}
                         transition={{ duration: 1, delay: 1.2 }}
-                        src={kevinRushProfilePng} 
+                        src={harmainrizwanJpg} 
                         alt="Harmain Rizwan" 
                     />
                 </div>
