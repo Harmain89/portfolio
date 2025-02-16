@@ -11,7 +11,7 @@ const Projects = () => {
                 transition={{ duration: 0.5 }}
                 className="my-20 text-center text-4xl"
             >
-                Projects
+                Some of my Projects
             </motion.h2>
             <div>
                 {
@@ -25,7 +25,7 @@ const Projects = () => {
                             >
                                 <img 
                                     src={project.image} 
-                                    width={150} 
+                                    width={250} 
                                     height={150} 
                                     alt={project.title} 
                                     className="mb-6 rounded"

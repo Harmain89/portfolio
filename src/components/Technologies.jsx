@@ -1,9 +1,9 @@
 import { motion } from "motion/react";
 
 const iconVariants = (duration) => ({
-  initial: { y: -10 },
+  initial: { y: -5 },
   animate: {
-    y: [10, -10],
+    y: [5, -5],
     transition:  {
       duration: duration,
       ease: "linear",

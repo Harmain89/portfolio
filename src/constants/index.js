@@ -43,7 +43,7 @@ export const PROJECTS = [
     title: "E-Commerce Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "A hybrid  mobile app designed to elevate the Dota 2 experience. It features in-game event reminders, an intelligent hero draft helper, a detailed hero glossary, and real-time news integration. This project refined my skills in Flutter development, API integration, and algorithm design.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
   {
@@ -70,6 +70,9 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
+  heading: "Whether you have a project in mind, need help with your app, or just want to say hello, feel free to reach out! I'm always open to discussing new opportunities and collaborations.",
+  heading2: "Interested in working together or just want to chat?",
+  heading3: "Or check out my socials below:",
   address: "767 Fifth Avenue, New York, NY 10153 ",
   phoneNo: "+12 4555 666 00 ",
   email: "me@example.com",
