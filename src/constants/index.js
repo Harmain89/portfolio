@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/WeDissect/2.png";
+import project2 from "../assets/projects/hairSaloon/1.png";
+import project3 from "../assets/projects/HairColorSaloon/1.png";
+import project4 from "../assets/projects/Portfolio/1.png";
 
 export const HERO_CONTENT = `I'm a Senior Full-Stack Developer who loves building powerful, I have experience with both frontend and backend, ensuring seamless user experiences with well-crafted designs. While I work across the stack, my true expertise lies in backend development, specializing in Laravel and the MERN stack to create high-performance, reliable systems that make a real impact.`;
 
@@ -13,59 +13,60 @@ export const EXPERIENCES = [
     role: "Senior FULL-STACK DEVELOPER",
     company: "SOFTOSYNC",
     description: `Developed and maintained scalable web applications using Laravel and the MERN stack, ensuring high performance and seamless functionality. Focused on optimizing backend performance by enhancing speed, scalability, and API efficiency to improve overall user experience. Collaborated with cross-functional teams in remote environments, aligning development efforts with project goals and business requirements. Managed hosting environments, deployments, and server configurations, ensuring smooth and secure application operations. Led API development, integrating third-party services and implementing payment gateways for streamlined transactions. Troubleshot and resolved complex technical issues, ensuring system reliability and optimal performance.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    technologies: ["Laravel", "React", "Vue.js", "MongoDB", "Mysql", "Docker", "more"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "Jun 2023 - Dec 2023",
+    role: "Mid FULL-STACK DEVELOPER",
+    company: "Quick4Solutions",
+    description: `I’ve worked on advanced Laravel projects and maintained web applications, making sure they run smoothly and perform at their best. I focused on improving backend systems by boosting speed, scalability, and database efficiency to create a better overall user experience. I collaborated with cross-functional teams in hybrid environments, keeping development aligned with project goals and client needs. Regularly communicating with clients, I provided updates, gathered feedback, and ensured the final product was user-centric and polished. I followed best practices for code quality, security, and documentation to build solutions that are easy to maintain and scale. When technical issues came up, I took the lead in troubleshooting and debugging, ensuring everything stayed reliable and performed optimally.`,
+    technologies: ["Laravel", "Codeigniter", "Mysql", "Web APIs", "Deployment", "more"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "Jan 2022 - Jun 2023",
+    role: "JUNIOR BACK END DEVELOPER",
+    company: "SOFTOLOGICS",
+    description: `At Softologics, I embarked on my professional journey by developing and maintaining web applications using Laravel and CodeIgniter. I collaborated with senior developers, assisting in coding, debugging, and testing applications, which honed my problem-solving skills. My role involved optimizing backend performance to ensure seamless functionality and enhancing user experience. Additionally, I participated in team meetings and contributed to project planning and execution, gaining valuable insights and experience in full-stack development.`,
+    technologies: ["Laravel", "Codeigniter", "Frontend", "Mysql", "Web APIs", "more"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "WeDissect - KYC Saas",
     image: project1,
-    description:
-      "A hybrid  mobile app designed to elevate the Dota 2 experience. It features in-game event reminders, an intelligent hero draft helper, a detailed hero glossary, and real-time news integration. This project refined my skills in Flutter development, API integration, and algorithm design.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    description: "WeDissect is an advanced background screening and identity verification platform designed to provide fast, reliable, and data-driven insights. Operating on a pay-as-you-go model, it offers businesses and individuals a seamless way to conduct risk assessments, verify identities, and analyze critical data in real time. With AI-powered fraud detection, comprehensive KYC analysis, and global coverage, WeDissect ensures accuracy and efficiency in every search. The platform features real-time mobile lookups, company risk screening, ID scanning, and forensic document analysis, all integrated into a well-illustrated performance dashboard. Whether it’s verifying individuals, screening businesses, or enhancing due diligence processes, WeDissect delivers a secure and scalable solution for informed decision-making.",
+    technologies: ["Laravel", "Mysql", "Nodejs", "Express", "Pupeeter", "Zignsec", "GCP", "more"],
+    git: false,
+    gitLink: '',
+    siteLink: 'https://www.wedissect.com/',
   },
   {
-    title: "Task Management App",
+    title: "InTheHairSaloon - Appointment System",
     image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    description: "This website is for In The Hair DMCC, a premium barber shop located in Jumeirah Lakes Towers (JLT), Dubai. The site showcases the shop’s services, including haircuts, beard trims, facials, head massages, hair treatments, and nail care for men and kids. It emphasizes high-quality grooming, affordability, and a professional team that ensures customers look their best. The website also provides an overview of the salon’s experienced barbers, its long-standing reputation since 2012, and an easy way to book appointments. It serves as an online presence for the business, helping customers explore services, meet the team, and schedule their next visit.",
+    technologies: ["Laravel", "Mysql", "Deployment", "Calender Lib.", "more"],
+    git: false,
+    gitLink: '',
+    siteLink: 'https://inthehairsalon.com/saloon/',
   },
   {
-    title: "Portfolio Website",
+    title: "HairColorDrop - Hair Stylist Hairing System",
     image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    description: "HairColorDrop is an innovative online platform that connects clients with professional hair colorists, offering a convenient and personalized approach to hair dyeing. Founded by Carolina Vengoechea, it bridges the gap between hairstylists and clients by providing virtual consultations, expert recommendations, and customized hair color kits delivered within 24 hours. Designed for those seeking salon-quality results at home or on the go, the platform makes hair coloring effortless, whether for a quick touch-up or a complete transformation. It also empowers hairstylists to earn flexibly without traditional salon constraints, fostering a community-driven space where expertise and creativity come together to redefine the hair coloring experience.",
+    technologies: ["Laravel", "Mysql", "Deployment", "Leaftlet", "more"],
+    git: false,
+    gitLink: '',
+    siteLink: 'https://haircolordrop.com/',
   },
   {
-    title: "Blogging Platform",
+    title: "Portfolio",
     image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    description: "The project showcases my work and skills using a stack that includes React, Express, Tailwind, Framer Motion, and NodeJs. Additionally, it features an admin panel built with Laravel and Livewire for managing content and settings.",
+    technologies: ["React", "Tailwind", "Framer Motion", "Express", "Nodejs"],
+    git: true,
+    gitLink: 'https://github.com/Harmain89/portfolio',
+    siteLink: 'https://portfolio-theta-ten-13.vercel.app/',
   },
 ];
 
