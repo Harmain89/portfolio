@@ -1,4 +1,4 @@
-import { harmainrizwanJpg, kevinRushProfilePng } from "../assets/index.js";
+import { harmainrizwanJpg, harmainrizwanPng, kevinRushProfilePng } from "../assets/index.js";
 import {HERO_CONTENT} from "../constants/index.js"
 import { motion } from "motion/react";
 
@@ -21,7 +21,7 @@ function Hero() {
                     <motion.span variants={container(0.5)} initial="hidden" animate="visible" transition={{ duration: 0.5, delay: 2 }} className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">
                         Full Stack Developer testing
                     </motion.span>
-                    <motion.p variants={container(1)} initial="hidden" animate="visible" transition={{ duration: 0.5, delay: 2 }} className="my—2 max—w—xl py-6 font—light tracking-tighter">
+                    <motion.p variants={container(1)} initial="hidden" animate="visible" transition={{ duration: 0.5, delay: 2 }} className="my—2 max-w-xl py-6 font—light tracking-tighter">
                         {HERO_CONTENT}
                     </motion.p>
                 </div>
@@ -30,6 +30,7 @@ function Hero() {
             <div className="w—full lg:w-1/2 lg:p-2">
                 <div className="flex justify-center">
                     <motion.img 
+                        className="rounded-[10px]"
                         initial={{ x: 100, opacity: 0 }}
                         animate={{ x: 0, opacity: 1 }}
                         transition={{ duration: 1, delay: 1.2 }}
