@@ -1,4 +1,4 @@
-import { about } from "../assets";
+// import { about } from "../assets";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "motion/react";
 

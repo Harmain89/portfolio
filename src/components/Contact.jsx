@@ -11,7 +11,7 @@ const Contact = () => {
                     <div className="flex flex-col w-full items-center mt-10">
                         <motion.h2 
                             whileInView={{ opacity: 1, y: 0 }}
-                            initial={{ opacity: 0, y: -100 }}
+                            initial={{ opacity: 0, y: -50 }}
                             transition={{ duration: 0.5 }}
                             className="my-10 text-center text-4xl"
                         >
@@ -19,21 +19,26 @@ const Contact = () => {
                         </motion.h2>
                         <motion.p 
                             whileInView={{ opacity: 1, y: 0 }}
-                            initial={{ opacity: 0, y: 100 }}
-                            transition={{ duration: 2 }}
+                            initial={{ opacity: 0, y: 50 }}
+                            transition={{ duration: 0.5 }}
                             className="my-4 max-w-2xl"
                         >
                             {CONTACT.heading}
                         </motion.p>
                         <motion.p 
                             whileInView={{ opacity: 1, y: 0 }}
-                            initial={{ opacity: 0, y: 100 }}
-                            transition={{ duration: 3 }}
+                            initial={{ opacity: 0, y: 50 }}
+                            transition={{ duration: 0.5 }}
                             className="my-4"
                         >
                             {CONTACT.heading2}
                         </motion.p>
-                        <div className="flex flex-row gap-4 mt-4">
+                        <motion.div 
+                            whileInView={{ opacity: 1, y: 0 }}
+                            initial={{ opacity: 0, y: 50 }}
+                            transition={{ duration: 0.5 }}
+                            className="flex flex-row gap-4 mt-4"
+                        >
                             <a href="mailto:harmainrizwanr@gmail.com" className="inline-block">
                                 <button
                                     className="inline-flex gap-2 items-center px-3 py-1 border-1 border-primary-container border rounded-md font-semibold text-xs text-primary-100 uppercase tracking-wide hover:bg-primary-600/40 active:bg-primary-800/80 focus:outline-none transition ease-in-out duration-150 undefined flex items-center justify-center px-6 py-3 space-x-2"
@@ -47,8 +52,13 @@ const Contact = () => {
                                     <span>Email me</span>
                                 </button>
                             </a>
-                        </div>
-                        <div className="mt-4 text-center">
+                        </motion.div>
+                        <motion.div 
+                            whileInView={{ opacity: 1, y: 0 }}
+                            initial={{ opacity: 0, y: 100 }}
+                            transition={{ duration: 0.5 }}
+                            className="mt-4 text-center"
+                        >
                             <p className="text-lg">{CONTACT.heading3}</p>
                             <div className="flex justify-center space-x-6 mt-4">
                                 <a href="https://github.com/Harmain89" target="_blank">
@@ -62,7 +72,7 @@ const Contact = () => {
                                         </svg>
                                     </button>
                                 </a>
-                                <a href="https://www.linkedin.com/in/bilalraja555/" target="_blank">
+                                <a href="https://www.linkedin.com/in/harmainrizwan/" target="_blank">
                                     <button
                                         className="inline-flex gap-2 items-center justify-center py-1 px-3 rounded-md font-semibold text-xs text-primary-100 uppercase tracking-wide active:bg-primary-800/80 focus:outline-none transition ease-in-out duration-100 undefined p-3"
                                     >
@@ -74,14 +84,18 @@ const Contact = () => {
                                     </button>
                                 </a>
                             </div>
-                        </div>
+                        </motion.div>
                         <div className="mt-6 text-center">
-                        <p className="text-lg font-semibold mt-2">
+                        <p className="text-xl font-semibold mt-2">
                             Let’s create something amazing!
                         </p>
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div className="flex justify-center mt-4">
+                <p className="text-sm text-slate-400">© 2025 Harmain Rizwan. All rights reserved.</p>
             </div>
 
         </div>
