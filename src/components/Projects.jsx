@@ -23,7 +23,7 @@ const Projects = () => {
                                 transition={{ duration: 1 }}
                                 className="w-full lg:w-1/4"
                             >
-                                <a href={project.siteLink} target="_blank">
+                                <a href={project.git ? project.gitLink : project.siteLink} target="_blank">
                                     <img 
                                         src={project.image} 
                                         width={350} 
@@ -40,15 +40,24 @@ const Projects = () => {
                                 className="w-full max-w-xl lg:w-3/4"
                             >
                                 <h6 className="mb-2 font-semibold">
-                                    <a href={project.siteLink} target="_blank">
-                                        {project.title}
-                                    </a>
+                                    {
+                                        project.git ? 
+                                        (
+                                            <a href={project.gitLink} target="_blank">
+                                                {project.title}
+                                            </a>
+                                        ) : (
+                                            <a href={project.siteLink} target="_blank">
+                                                {project.title}
+                                            </a>
+                                        )
+                                    }
                                 </h6>
                                 <p className="mb-4 text-neutral-400">{project.description}</p>
                                 {
                                     project.git && 
                                     <div className="flex gap-2 mt-4 mb-3 items-end justify-start">
-                                        <a href={project.gitLink} target="_blank" class="text-primary">
+                                        <a href={project.gitLink} target="_blank" className="text-primary">
                                             <button className="inline-flex gap-2 items-center px-3 py-1 border-1 border-primary-container border rounded-md font-semibold text-xs text-primary-100 uppercase tracking-wide hover:bg-primary-600/40 active:bg-primary-800/80 focus:outline-none transition ease-in-out duration-150">
                                                 <img src="https://skillicons.dev/icons?i=github" alt="github" width={20} />
                                                 Github
