@@ -17,34 +17,17 @@ function Hero() {
         <div className="flex flex-wrap">
             <div className="w-full lg:w-1/2">
                 <div className="flex flex-col items-center lg:items-start">
-                    <motion.span 
-                        variants={container(0.5)} 
-                        initial="hidden" 
-                        animate="visible" 
-                        transition={{ duration: 0.5, delay: 2 }} 
-                        className="bg-clip-text text-3xl tracking-tight text-transparent text-white"
-                    >
-                        👋 Hi there, I'm
-                    </motion.span>
-                    <motion.h1 
-                        variants={container(0)} 
-                        initial="hidden" 
-                        animate="visible" 
-                        transition={{ duration: 0.5, delay: 2 }} 
-                        className="pb-16 text—6xl font—thin tracking—tight lg:mt-9 text-8xl"
-                    >
-                        Harmain Rizwan
-                    </motion.h1>
+                    <motion.h1 variants={container(0)} initial="hidden" animate="visible" transition={{ duration: 0.5, delay: 2 }} className="pb-16 font-thin tracking-tight lg:mt-16 text-8xl text-center">Harmain Rizwan</motion.h1>
                     <motion.span variants={container(0.5)} initial="hidden" animate="visible" transition={{ duration: 0.5, delay: 2 }} className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">
                         Full Stack Developer
                     </motion.span>
-                    <motion.p variants={container(1)} initial="hidden" animate="visible" transition={{ duration: 0.5, delay: 2 }} className="my—2 max-w-xl py-6 font—light tracking-tighter">
+                    <motion.p variants={container(1)} initial="hidden" animate="visible" transition={{ duration: 0.5, delay: 2 }} className="my-2 max-w-xl py-6 font-light tracking-tighter">
                         {HERO_CONTENT}
                     </motion.p>
                 </div>
             </div>
 
-            <div className="w—full lg:w-1/2 lg:p-2">
+            <div className="w-full lg:w-1/2 lg:p-2">
                 <div className="flex justify-center">
                     <motion.img 
                         className="rounded-[10px]"
