@@ -5,6 +5,7 @@ import kevinRushProfileJpg from './kevinRushProfile.jpg';
 import kevinRushProfilePng from './kevinRushProfile.png';
 import harmainrizwanJpg from './harmainrizwan.jpeg';
 import harmainrizwanPng from './harmainrizwan.png';
+import contribution from './contributions.png';
 
 import project1 from "./projects/project-1.jpg"
 import project2 from "./projects/project-2.jpg"
@@ -19,6 +20,7 @@ export {
     kevinRushProfilePng,
     harmainrizwanJpg,
     harmainrizwanPng,
+    contribution,
     project1,
     project2,
     project3,
