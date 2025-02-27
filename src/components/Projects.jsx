@@ -78,14 +78,14 @@ const Projects = () => {
                 }
             </div>
 
-            <div class="mb-8 flex flex-wrap lg:justify-center" bis_skin_checked="1">
+            <div className="mb-8 flex flex-wrap lg:justify-center">
                 <a href="javascript:void(0)">
                     <button
                         className="inline-flex gap-2 items-center justify-center py-1 px-3 rounded-md font-semibold text-lg text-primary-100 uppercase tracking-wide active:bg-primary-800/80 focus:outline-none transition ease-in-out duration-100 undefined group"
                     >
                         View All Projects
                         <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
-                            stroke-linecap="round" stroke-linejoin="round" class="transition-all group-hover:translate-x-1"
+                            stroke-linecap="round" stroke-linejoin="round" className="transition-all group-hover:translate-x-1"
                             height="20" width="20" xmlns="http://www.w3.org/2000/svg">
                             <polyline points="9 18 15 12 9 6"></polyline>
                         </svg>

@@ -3,7 +3,7 @@ import harmainLogo from './harmainLogo.png';
 import about from './about.jpg';
 import kevinRushProfileJpg from './kevinRushProfile.jpg';
 import kevinRushProfilePng from './kevinRushProfile.png';
-import harmainrizwanJpg from './harmainrizwan1.jpg';
+import harmainrizwanJpg from './harmainrizwan.jpeg';
 import harmainrizwanPng from './harmainrizwan.png';
 
 import project1 from "./projects/project-1.jpg"
