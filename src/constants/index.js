@@ -2,6 +2,8 @@ import project1 from "../assets/projects/WeDissect/2.png";
 import project2 from "../assets/projects/hairSaloon/1.png";
 import project3 from "../assets/projects/HairColorSaloon/1.png";
 import project4 from "../assets/projects/Portfolio/1.png";
+import project5 from "../assets/projects/RestnCode/1.png";
+import project6 from "../assets/projects/XtremeFitness/1.png";
 
 export const HERO_CONTENT = `I'm a Senior Full-Stack Developer who loves building powerful, I have experience with both frontend and backend, ensuring seamless user experiences with well-crafted designs. While I work across the stack, my true expertise lies in backend development, specializing in Laravel and the MERN stack to create high-performance, reliable systems that make a real impact.`;
 
@@ -58,6 +60,24 @@ export const PROJECTS = [
     git: false,
     gitLink: '',
     siteLink: 'https://haircolordrop.com/',
+  },
+  {
+    title: "RestNCode - Bridging the Gap",
+    image: project5,
+    description: "RestNCode is a modern agency dedicated to providing high-quality, scalable, and cost-effective digital solutions. Unlike traditional agencies that come with high costs or freelancers who may lack the necessary resources, we offer a balanced approach—ensuring professionalism, affordability, and long-term business growth. Our expertise spans across custom software development, mobile and web applications, UI/UX design, backend development, API integrations, and much more. We focus on delivering high-performance, conversion-optimized solutions that help businesses scale efficiently while maintaining a seamless user experience.",
+    technologies: ["Laravel", "Mysql", "digital ocean", "more"],
+    git: false,
+    gitLink: "",
+    siteLink: "https://portfolio-theta-ten-13.vercel.app/",
+  },
+  {
+    title: "XtremeFitness - Elevating Fitness, Empowering Administration",
+    image: project6,
+    description: "XtremeFitness is designed to revolutionize fitness management by streamlining administrative tasks while enhancing user engagement. Our platform empowers gym owners, trainers, and fitness enthusiasts by providing seamless access to membership management, workout tracking, and business analytics. Whether you're an administrator managing operations or a member tracking progress, XtremeFitness ensures a smooth, user-friendly experience. Built with performance and security in mind, our system simplifies fitness administration so you can focus on what truly matters—health and growth.",
+    technologies: ["Laravel", "Mysql", "Excel Integerated", "Deployment", "more"],
+    git: false,
+    gitLink: "",
+    siteLink: "#",
   },
   {
     title: "Portfolio",
