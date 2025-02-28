@@ -4,6 +4,8 @@ import project3 from "../assets/projects/HairColorSaloon/1.png";
 import project4 from "../assets/projects/Portfolio/1.png";
 import project5 from "../assets/projects/RestnCode/1.png";
 import project6 from "../assets/projects/XtremeFitness/1.png";
+import project7 from "../assets/projects/BackgroundRemoval/1.png";
+import project8 from "../assets/projects/MernAuth/1.png";
 
 export const HERO_CONTENT = `I'm a Senior Full-Stack Developer who loves building powerful Web Apps, I have experience with both frontend and backend, ensuring seamless user experiences with well-crafted designs. While I work across the stack, my true expertise lies in backend development, specializing in Laravel and the MERN stack to create high-performance, reliable systems that make a real impact.`;
 
@@ -44,6 +46,15 @@ export const PROJECTS = [
     siteLink: 'https://www.wedissect.com/',
   },
   {
+    title: "BG Removal - Remove Image Backgrounds for Free",
+    image: project7,
+    description: "Easily remove backgrounds from images with high accuracy and quality—all for free! Our AI-powered tool makes background removal effortless, whether for social media, e-commerce, or personal use. Just upload your image, let our system work its magic, and download your new background-free picture in seconds.",
+    technologies: ["React", "MongoDB", "Express", "Clerk", "OAuth", "clipdrop-api", "Vercel", "more"],
+    git: false,
+    gitLink: '',
+    siteLink: 'https://background-removal-liart.vercel.app/',
+  },
+  {
     title: "InTheHairSaloon - Appointment System",
     image: project2,
     description: "This website is for In The Hair DMCC, a premium barber shop located in Jumeirah Lakes Towers (JLT), Dubai. The site showcases the shop’s services, including haircuts, beard trims, facials, head massages, hair treatments, and nail care for men and kids. It emphasizes high-quality grooming, affordability, and a professional team that ensures customers look their best. The website also provides an overview of the salon’s experienced barbers, its long-standing reputation since 2012, and an easy way to book appointments. It serves as an online presence for the business, helping customers explore services, meet the team, and schedule their next visit.",
@@ -68,7 +79,7 @@ export const PROJECTS = [
     technologies: ["Laravel", "Mysql", "digital ocean", "more"],
     git: false,
     gitLink: "",
-    siteLink: "https://portfolio-theta-ten-13.vercel.app/",
+    siteLink: "https://restncode.net/",
   },
   {
     title: "XtremeFitness - Elevating Fitness, Empowering Administration",
@@ -87,6 +98,24 @@ export const PROJECTS = [
     git: true,
     gitLink: 'https://github.com/Harmain89/portfolio',
     siteLink: 'https://portfolio-theta-ten-13.vercel.app/',
+  },
+  {
+    title: "YouTube Like Videos Manager",
+    image: "https://opengraph.githubassets.com/1/Harmain89/youtubeManager",
+    description: "A Backend feature-rich web application that allows users to manage their favorite YouTube videos efficiently. Users can save, categorize, and search for videos in a personalized collection, making it easy to revisit important content anytime. The app provides a seamless experience with an intuitive UI, smooth video previews, and interactive features.",
+    technologies: ["Node.js", "Express", "MongoDB", "YouTube API", "Backend Structure", "more"],
+    git: true,
+    gitLink: 'https://github.com/Harmain89/youtubeManager',
+    siteLink: '',
+  },
+  {
+    title: "MERN Authentication Project 🚀",
+    image: project8,
+    description: "A full-stack authentication system built with the MERN stack, featuring JWT authentication, password encryption, email verification, OTP-based validation, and Brevo email integration. Designed for secure and scalable user authentication with a modern UI/UX.",
+    technologies: ["MongoDB", "Express.js", "React", "Node.js", "JWT", "Cookies", "Brevo"],
+    git: true,
+    gitLink: 'https://github.com/Harmain89/MernAuth',
+    siteLink: '',
   },
 ];
 
