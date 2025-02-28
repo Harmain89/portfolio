@@ -5,7 +5,7 @@ import project4 from "../assets/projects/Portfolio/1.png";
 import project5 from "../assets/projects/RestnCode/1.png";
 import project6 from "../assets/projects/XtremeFitness/1.png";
 
-export const HERO_CONTENT = `I'm a Senior Full-Stack Developer who loves building powerful, I have experience with both frontend and backend, ensuring seamless user experiences with well-crafted designs. While I work across the stack, my true expertise lies in backend development, specializing in Laravel and the MERN stack to create high-performance, reliable systems that make a real impact.`;
+export const HERO_CONTENT = `I'm a Senior Full-Stack Developer who loves building powerful Web Apps, I have experience with both frontend and backend, ensuring seamless user experiences with well-crafted designs. While I work across the stack, my true expertise lies in backend development, specializing in Laravel and the MERN stack to create high-performance, reliable systems that make a real impact.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 3+ years of professional experience, I have worked with a variety of technologies, including Laravel, React, Vue.js, Node.js, MySQL, PostgreSQL, and MongoDB, Deployments (AWS, GCP, Cpanels), etc. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
