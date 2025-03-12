@@ -2,7 +2,7 @@ import { harmainLogo } from "../assets";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaFileAlt } from "react-icons/fa";
-import mypdf from '../assets/harmain rizwan.pdf';
+import mypdf from '../assets/harmain-rizwan.pdf';
 
 function Navbar() {
   return (
